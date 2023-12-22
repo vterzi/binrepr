@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "binrepr"
+dynamic = ["version"]
+description = "A Python package for converting basic types to their binary representations"
+requires-python = ">= 3.8"
+authors = [
+    {name = "Vladimir Terzi"},
+]
+maintainers = [
+    {name = "Vladimir Terzi"},
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["binary", "representation", "convert"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+Repository = "https://github.com/vterzi/binrepr.git"
