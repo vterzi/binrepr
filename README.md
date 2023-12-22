@@ -1,2 +1,2 @@
 # binrepr
-Python package working with the binary representation of basic types
+A Python package for converting basic types to their binary representations
